@@ -1,0 +1,100 @@
+{% extends "layout.html" %}
+
+{% block title %} - Home{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8">
+        <div class="card bg-dark mb-4">
+            <div class="card-body">
+                <h1 class="card-title text-primary">Welcome to the Scientific Method Learning Tool</h1>
+                <p class="card-text lead">An interactive journey through the process of scientific discovery</p>
+                <p>This tool helps you learn about the scientific method using dual processing theory - combining visual and verbal learning to enhance understanding and retention.</p>
+                
+                <div class="d-flex justify-content-center my-4">
+                    <img src="{{ url_for('static', filename='svg/scientific_method.svg') }}" alt="Scientific Method Diagram" class="img-fluid" style="max-height: 300px;">
+                </div>
+                
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <a href="#lessons" class="btn btn-primary"><i class="fas fa-book-open me-2"></i>Start Learning</a>
+                    {% if not current_user.is_authenticated %}
+                    <a href="{{ url_for('register') }}" class="btn btn-outline-secondary"><i class="fas fa-user-plus me-2"></i>Create Account to Track Progress</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        <div id="lessons" class="card bg-dark mb-4">
+            <div class="card-header bg-primary bg-opacity-75">
+                <h2 class="mb-0">Lessons</h2>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    {% for lesson in lessons %}
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100 bg-dark border-info">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ lesson.title }}</h5>
+                                <div class="d-flex justify-content-center my-3">
+                                    <img src="{{ url_for('static', filename='svg/' + lesson.image) }}" alt="{{ lesson.title }}" class="img-fluid" style="max-height: 120px;">
+                                </div>
+                                <p class="card-text">{{ lesson.summary }}</p>
+                                <div class="d-grid">
+                                    <a href="{{ url_for('lesson', lesson_id=lesson.id) }}" class="btn btn-outline-info">
+                                        Start Lesson <i class="fas fa-arrow-right ms-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            {% if lesson.quiz_id %}
+                            <div class="card-footer bg-dark">
+                                <a href="{{ url_for('quiz', quiz_id=lesson.quiz_id) }}" class="btn btn-sm btn-outline-warning w-100">
+                                    <i class="fas fa-question-circle me-2"></i>Take Quiz
+                                </a>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card bg-dark mb-4">
+            <div class="card-header bg-info bg-opacity-75">
+                <h3 class="mb-0">What is the Scientific Method?</h3>
+            </div>
+            <div class="card-body">
+                <p>The scientific method is a systematic approach to understanding the natural world. It involves making observations, formulating hypotheses, conducting experiments, analyzing data, and drawing conclusions.</p>
+                
+                <div class="d-grid gap-2 mt-3">
+                    {% if current_user.is_authenticated %}
+                    <a href="{{ url_for('progress') }}" class="btn btn-info">
+                        <i class="fas fa-chart-line me-2"></i>View Your Progress
+                    </a>
+                    {% else %}
+                    <a href="{{ url_for('login') }}" class="btn btn-info">
+                        <i class="fas fa-sign-in-alt me-2"></i>Login to Track Progress
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        <div class="card bg-dark">
+            <div class="card-header bg-success bg-opacity-75">
+                <h3 class="mb-0">Why Dual Processing Theory?</h3>
+            </div>
+            <div class="card-body">
+                <p>Dual processing theory suggests that humans process information through two parallel systems:</p>
+                <ul>
+                    <li><strong>Visual channel</strong> - processes images, diagrams, and animations</li>
+                    <li><strong>Verbal channel</strong> - processes written and spoken words</li>
+                </ul>
+                <p>By engaging both channels simultaneously, this learning tool helps you better understand and retain scientific concepts.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

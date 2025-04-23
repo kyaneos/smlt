@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400">
+  <!-- Background -->
+  <rect width="700" height="400" fill="#292b2c" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="350" y="40" font-family="Arial, sans-serif" font-size="24" fill="#17a2b8" text-anchor="middle" font-weight="bold">Experimental Design</text>
+  
+  <!-- Laboratory scene -->
+  <g transform="translate(350, 210)">
+    <!-- Lab table -->
+    <rect x="-300" y="50" width="600" height="20" fill="#6c757d"/>
+    <rect x="-280" y="70" width="560" height="10" fill="#495057"/>
+    
+    <!-- Experimental setup -->
+    <!-- Control Group -->
+    <g transform="translate(-180, 0)">
+      <rect x="-70" y="-70" width="140" height="120" rx="5" ry="5" fill="#343a40" stroke="#6c757d" stroke-width="2"/>
+      <text x="0" y="-40" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">Control Group</text>
+      
+      <!-- Plant pots -->
+      <g transform="translate(-40, 0)">
+        <path d="M-15,50 L15,50 L10,-20 L-10,-20 Z" fill="#fd7e14"/>
+        <path d="M-8,-20 C-5,-40 5,-40 8,-20" fill="#28a745"/>
+        <path d="M-8,-20 C-5,-50 0,-40 0,-30" fill="#28a745"/>
+        <path d="M8,-20 C5,-50 0,-40 0,-30" fill="#28a745"/>
+      </g>
+      
+      <g transform="translate(0, 0)">
+        <path d="M-15,50 L15,50 L10,-20 L-10,-20 Z" fill="#fd7e14"/>
+        <path d="M-8,-20 C-5,-40 5,-40 8,-20" fill="#28a745"/>
+        <path d="M-8,-20 C-5,-50 0,-40 0,-30" fill="#28a745"/>
+        <path d="M8,-20 C5,-50 0,-40 0,-30" fill="#28a745"/>
+      </g>
+      
+      <g transform="translate(40, 0)">
+        <path d="M-15,50 L15,50 L10,-20 L-10,-20 Z" fill="#fd7e14"/>
+        <path d="M-8,-20 C-5,-40 5,-40 8,-20" fill="#28a745"/>
+        <path d="M-8,-20 C-5,-50 0,-40 0,-30" fill="#28a745"/>
+        <path d="M8,-20 C5,-50 0,-40 0,-30" fill="#28a745"/>
+      </g>
+    </g>
+    
+    <!-- Experimental Group -->
+    <g transform="translate(180, 0)">
+      <rect x="-70" y="-70" width="140" height="120" rx="5" ry="5" fill="#343a40" stroke="#007bff" stroke-width="2"/>
+      <text x="0" y="-40" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">Test Group</text>
+      
+      <!-- Plant pots with treatment (taller plants) -->
+      <g transform="translate(-40, 0)">
+        <path d="M-15,50 L15,50 L10,-20 L-10,-20 Z" fill="#fd7e14"/>
+        <path d="M-10,-20 C-6,-50 6,-50 10,-20" fill="#28a745"/>
+        <path d="M-10,-20 C-5,-70 0,-60 0,-40" fill="#28a745"/>
+        <path d="M10,-20 C5,-70 0,-60 0,-40" fill="#28a745"/>
+      </g>
+      
+      <g transform="translate(0, 0)">
+        <path d="M-15,50 L15,50 L10,-20 L-10,-20 Z" fill="#fd7e14"/>
+        <path d="M-10,-20 C-6,-50 6,-50 10,-20" fill="#28a745"/>
+        <path d="M-10,-20 C-5,-70 0,-60 0,-40" fill="#28a745"/>
+        <path d="M10,-20 C5,-70 0,-60 0,-40" fill="#28a745"/>
+      </g>
+      
+      <g transform="translate(40, 0)">
+        <path d="M-15,50 L15,50 L10,-20 L-10,-20 Z" fill="#fd7e14"/>
+        <path d="M-10,-20 C-6,-50 6,-50 10,-20" fill="#28a745"/>
+        <path d="M-10,-20 C-5,-70 0,-60 0,-40" fill="#28a745"/>
+        <path d="M10,-20 C5,-70 0,-60 0,-40" fill="#28a745"/>
+      </g>
+    </g>
+    
+    <!-- Scientist -->
+    <g transform="translate(0, -20)">
+      <!-- Lab coat -->
+      <path d="M-20,0 C-25,10 -35,60 -30,80 L30,80 C35,60 25,10 20,0 Z" fill="#f8f9fa"/>
+      
+      <!-- Head -->
+      <circle cx="0" cy="-20" r="20" fill="#f8f9fa"/>
+      
+      <!-- Face features -->
+      <circle cx="-7" cy="-25" r="3" fill="#212529"/>
+      <circle cx="7" cy="-25" r="3" fill="#212529"/>
+      <path d="M-7,-15 C-5,-12 5,-12 7,-15" fill="none" stroke="#212529" stroke-width="2" stroke-linecap="round"/>
+      
+      <!-- Clipboard -->
+      <g transform="translate(-45, 20) rotate(-10)">
+        <rect x="-15" y="-20" width="30" height="40" fill="#6c757d"/>
+        <rect x="-12" y="-17" width="24" height="34" fill="#ffffff"/>
+        <line x1="-8" y1="-10" x2="8" y2="-10" stroke="#212529" stroke-width="1"/>
+        <line x1="-8" y1="-5" x2="8" y2="-5" stroke="#212529" stroke-width="1"/>
+        <line x1="-8" y1="0" x2="8" y2="0" stroke="#212529" stroke-width="1"/>
+        <line x1="-8" y1="5" x2="8" y2="5" stroke="#212529" stroke-width="1"/>
+        <line x1="-8" y1="10" x2="0" y2="10" stroke="#212529" stroke-width="1"/>
+      </g>
+      
+      <!-- Arms -->
+      <path d="M-20,10 C-40,20 -45,20 -45,20" fill="none" stroke="#f8f9fa" stroke-width="8" stroke-linecap="round"/>
+      <path d="M20,10 C40,30 50,40 50,40" fill="none" stroke="#f8f9fa" stroke-width="8" stroke-linecap="round"/>
+    </g>
+  </g>
+  
+  <!-- Variable Box -->
+  <g transform="translate(120, 100)">
+    <rect x="-100" y="-30" width="200" height="120" rx="10" ry="10" fill="#343a40" stroke="#28a745" stroke-width="2"/>
+    <text x="0" y="-10" font-family="Arial, sans-serif" font-size="16" fill="#28a745" text-anchor="middle" font-weight="bold">Variables</text>
+    
+    <text x="-90" y="20" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="start">Independent:</text>
+    <text x="-10" y="20" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="start" font-style="italic">What you change</text>
+    
+    <text x="-90" y="50" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="start">Dependent:</text>
+    <text x="-10" y="50" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="start" font-style="italic">What you measure</text>
+    
+    <text x="-90" y="80" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="start">Controlled:</text>
+    <text x="-10" y="80" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="start" font-style="italic">What you keep same</text>
+  </g>
+  
+  <!-- Experimental Design Box -->
+  <g transform="translate(580, 100)">
+    <rect x="-100" y="-30" width="200" height="120" rx="10" ry="10" fill="#343a40" stroke="#ffc107" stroke-width="2"/>
+    <text x="0" y="-10" font-family="Arial, sans-serif" font-size="16" fill="#ffc107" text-anchor="middle" font-weight="bold">Design Elements</text>
+    
+    <circle cx="-80" cy="20" r="6" fill="#ffc107"/>
+    <text x="-65" y="25" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="start">Control groups</text>
+    
+    <circle cx="-80" cy="50" r="6" fill="#ffc107"/>
+    <text x="-65" y="55" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="start">Randomization</text>
+    
+    <circle cx="-80" cy="80" r="6" fill="#ffc107"/>
+    <text x="-65" y="85" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="start">Replication</text>
+  </g>
+  
+  <!-- Reducing Bias Box -->
+  <rect x="150" y="315" width="400" height="70" rx="10" ry="10" fill="#343a40" stroke="#17a2b8" stroke-width="2"/>
+  <text x="350" y="340" font-family="Arial, sans-serif" font-size="16" fill="#17a2b8" text-anchor="middle" font-weight="bold">Methods to Reduce Bias</text>
+  
+  <text x="240" y="365" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Blinding</text>
+  <text x="350" y="365" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Randomization</text>
+  <text x="460" y="365" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">Large Sample Size</text>
+</svg>
