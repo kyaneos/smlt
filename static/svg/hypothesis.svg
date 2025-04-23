@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400">
+  <!-- Background -->
+  <rect width="700" height="400" fill="#292b2c" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="350" y="40" font-family="Arial, sans-serif" font-size="24" fill="#17a2b8" text-anchor="middle" font-weight="bold">Forming Hypotheses</text>
+  
+  <!-- Brain with ideas/hypotheses -->
+  <g transform="translate(350, 180) scale(0.8)">
+    <!-- Brain outline -->
+    <path d="M0,-100 C-60,-100 -120,-70 -120,-10 C-120,20 -100,50 -70,60 C-80,80 -60,110 -30,110 C-10,110 0,100 10,110 C30,110 50,120 70,110 C90,100 110,80 120,60 C130,30 120,-10 90,-40 C60,-70 40,-100 0,-100 Z" 
+          fill="#6f42c1" stroke="#ffffff" stroke-width="3"/>
+    
+    <!-- Brain details - left hemisphere -->
+    <path d="M-120,-10 C-120,-40 -100,-70 -70,-80 C-50,-90 -30,-90 -20,-80" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-110,20 C-100,40 -80,50 -60,50" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-70,60 C-60,70 -50,75 -40,75" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Brain details - right hemisphere -->
+    <path d="M90,-40 C70,-60 50,-70 30,-70" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <path d="M120,30 C110,40 100,45 90,45" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <path d="M90,80 C80,90 70,95 60,95" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Hypothesis "light bulbs" floating around brain -->
+    <g transform="translate(-90, -60)">
+      <circle cx="0" cy="0" r="20" fill="#ffc107"/>
+      <circle cx="0" cy="0" r="15" fill="#ffec88"/>
+      <path d="M0,20 L0,35" stroke="#ffc107" stroke-width="3"/>
+      <path d="M-5,25 L5,25" stroke="#ffc107" stroke-width="3"/>
+      <path d="M-5,30 L5,30" stroke="#ffc107" stroke-width="3"/>
+      <text x="0" y="5" font-family="Arial, sans-serif" font-size="12" fill="#212529" text-anchor="middle" font-weight="bold">IF</text>
+    </g>
+    
+    <g transform="translate(80, -70)">
+      <circle cx="0" cy="0" r="25" fill="#fd7e14"/>
+      <circle cx="0" cy="0" r="20" fill="#fed8b1"/>
+      <path d="M0,25 L0,40" stroke="#fd7e14" stroke-width="3"/>
+      <path d="M-5,30 L5,30" stroke="#fd7e14" stroke-width="3"/>
+      <path d="M-5,35 L5,35" stroke="#fd7e14" stroke-width="3"/>
+      <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" fill="#212529" text-anchor="middle" font-weight="bold">THEN</text>
+    </g>
+    
+    <g transform="translate(-60, 90)">
+      <circle cx="0" cy="0" r="15" fill="#28a745"/>
+      <circle cx="0" cy="0" r="10" fill="#a3e8b5"/>
+      <path d="M0,15 L0,25" stroke="#28a745" stroke-width="2"/>
+      <path d="M-4,18 L4,18" stroke="#28a745" stroke-width="2"/>
+      <path d="M-4,22 L4,22" stroke="#28a745" stroke-width="2"/>
+      <text x="0" y="4" font-family="Arial, sans-serif" font-size="10" fill="#212529" text-anchor="middle" font-weight="bold">?</text>
+    </g>
+    
+    <g transform="translate(100, 60)">
+      <circle cx="0" cy="0" r="18" fill="#17a2b8"/>
+      <circle cx="0" cy="0" r="13" fill="#8fe1ef"/>
+      <path d="M0,18 L0,28" stroke="#17a2b8" stroke-width="2"/>
+      <path d="M-4,21 L4,21" stroke="#17a2b8" stroke-width="2"/>
+      <path d="M-4,25 L4,25" stroke="#17a2b8" stroke-width="2"/>
+      <text x="0" y="4" font-family="Arial, sans-serif" font-size="10" fill="#212529" text-anchor="middle" font-weight="bold">?</text>
+    </g>
+  </g>
+  
+  <!-- Hypothesis Format Box -->
+  <rect x="150" y="320" width="400" height="60" rx="10" ry="10" fill="#343a40" stroke="#ffc107" stroke-width="2"/>
+  <text x="350" y="340" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">If [independent variable], then [dependent variable]</text>
+  <text x="350" y="365" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-style="italic">A testable explanation that predicts an outcome</text>
+  
+  <!-- Hypothesis Characteristics -->
+  <g transform="translate(120, 130)">
+    <rect x="-100" y="-30" width="200" height="180" rx="10" ry="10" fill="#343a40" stroke="#007bff" stroke-width="2"/>
+    <text x="0" y="-10" font-family="Arial, sans-serif" font-size="16" fill="#007bff" text-anchor="middle" font-weight="bold">Good Hypotheses Are:</text>
+    
+    <circle cx="-80" cy="20" r="8" fill="#28a745"/>
+    <text x="-65" y="25" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="start">Testable</text>
+    
+    <circle cx="-80" cy="50" r="8" fill="#28a745"/>
+    <text x="-65" y="55" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="start">Falsifiable</text>
+    
+    <circle cx="-80" cy="80" r="8" fill="#28a745"/>
+    <text x="-65" y="85" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="start">Specific</text>
+    
+    <circle cx="-80" cy="110" r="8" fill="#28a745"/>
+    <text x="-65" y="115" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="start">Based on evidence</text>
+  </g>
+  
+  <g transform="translate(580, 130)">
+    <rect x="-100" y="-30" width="200" height="180" rx="10" ry="10" fill="#343a40" stroke="#dc3545" stroke-width="2"/>
+    <text x="0" y="-10" font-family="Arial, sans-serif" font-size="16" fill="#dc3545" text-anchor="middle" font-weight="bold">Poor Hypotheses Are:</text>
+    
+    <circle cx="-80" cy="20" r="8" fill="#dc3545"/>
+    <text x="-65" y="25" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="start">Untestable</text>
+    
+    <circle cx="-80" cy="50" r="8" fill="#dc3545"/>
+    <text x="-65" y="55" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="start">Too vague</text>
+    
+    <circle cx="-80" cy="80" r="8" fill="#dc3545"/>
+    <text x="-65" y="85" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="start">Value judgments</text>
+    
+    <circle cx="-80" cy="110" r="8" fill="#dc3545"/>
+    <text x="-65" y="115" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="start">Without variables</text>
+  </g>
+</svg>

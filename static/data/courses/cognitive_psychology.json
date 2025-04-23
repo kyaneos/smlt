@@ -1,0 +1,422 @@
+[
+  {
+    "id": 13,
+    "title": "Introduction to Cognitive Psychology",
+    "summary": "Explore the scientific study of mental processes involved in perception, attention, memory, language, and thinking.",
+    "intro": "Cognitive psychology focuses on how people acquire, process, and store information. This lesson introduces the field's key concepts, historical development, and research methods used to understand the mind's inner workings.",
+    "image": "observation.svg",
+    "quiz_id": 13,
+    "sections": [
+      {
+        "title": "What is Cognitive Psychology?",
+        "content": "Cognitive psychology is the scientific study of mental processes such as perception, attention, memory, language, problem-solving, and decision-making. It examines how people acquire, process, and store information, filling the gap between stimulus and response by studying internal mental processes.",
+        "image": "observation.svg",
+        "key_points": [
+          "Focuses on information processing rather than just observable behavior",
+          "Examines mental processes through scientific research methods",
+          "Connects neuroscience with observable behavior",
+          "Influences diverse fields including education, artificial intelligence, and clinical psychology"
+        ]
+      },
+      {
+        "title": "Historical Development",
+        "content": "Cognitive psychology emerged as a response to behaviorism in the mid-20th century, though its roots trace back to early philosophical inquiries about the mind. The 'cognitive revolution' led to a shift from studying only observable behavior to examining internal mental processes through rigorous scientific methods.",
+        "example": "While behaviorists focused solely on observable responses to stimuli, cognitive psychologists like George Miller demonstrated limits on information processing capacity (e.g., 'The Magical Number Seven, Plus or Minus Two'), suggesting complex internal mechanisms beyond simple stimulus-response associations."
+      },
+      {
+        "title": "Research Methods in Cognitive Psychology",
+        "content": "Cognitive psychologists use diverse research methods to study mental processes. Experimental approaches manipulate variables to observe effects on cognitive performance. Computational modeling simulates cognitive processes. Brain imaging techniques visualize neural activity during cognitive tasks. These complementary methods help form a comprehensive understanding of cognition.",
+        "key_points": [
+          "Controlled laboratory experiments test specific cognitive mechanisms",
+          "Reaction time measurements reveal processing speed and efficiency",
+          "Neuroimaging techniques (fMRI, EEG) connect cognitive processes to brain activity",
+          "Computational models formalize and test theories of cognitive processes"
+        ]
+      }
+    ],
+    "key_takeaways": [
+      "Cognitive psychology studies the internal mental processes between stimulus and response",
+      "The field emerged during the 'cognitive revolution' as an alternative to behaviorism",
+      "Researchers use diverse methods including experiments, brain imaging, and computational modeling",
+      "Cognitive research has practical applications in education, human-computer interaction, and clinical treatment"
+    ],
+    "glossary": [
+      {
+        "term": "Cognition",
+        "definition": "Mental activities involved in acquiring, processing, storing, and using information."
+      },
+      {
+        "term": "Information Processing",
+        "definition": "The sequence of operations performed on information as it moves through the cognitive system."
+      },
+      {
+        "term": "Cognitive Revolution",
+        "definition": "The shift in psychology from behaviorism to cognitive approaches during the 1950s and 1960s."
+      },
+      {
+        "term": "Mental Representation",
+        "definition": "Internal cognitive structures that stand for external reality, such as concepts, images, or propositions."
+      }
+    ],
+    "further_reading": [
+      {
+        "title": "A Brief History of Cognitive Psychology",
+        "url": "https://www.verywellmind.com/cognitive-psychology-4157181"
+      },
+      {
+        "title": "Cognitive Psychology: Mind and Brain",
+        "url": "https://www.apa.org/ed/precollege/topss/lessons/cognition"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Perception",
+    "summary": "Understand how we detect, organize, and interpret sensory information from the environment.",
+    "intro": "Perception is the process of organizing and interpreting sensory information to understand the world around us. This lesson explores how we detect stimuli through our senses and how our brains transform raw sensations into meaningful perceptions.",
+    "image": "observation.svg",
+    "quiz_id": 14,
+    "sections": [
+      {
+        "title": "Sensation and Perception",
+        "content": "Sensation involves detecting environmental stimuli through specialized receptors, while perception involves organizing and interpreting these sensations. Though interconnected, these processes serve distinct functions in how we experience and understand the world, with perception adding meaning to raw sensory data.",
+        "image": "observation.svg",
+        "key_points": [
+          "Sensation is the detection of physical stimuli by sensory receptors",
+          "Perception is the organization and interpretation of sensations",
+          "Sensory thresholds determine what we can detect",
+          "Transduction converts physical energy into neural signals"
+        ]
+      },
+      {
+        "title": "Visual Perception",
+        "content": "Visual perception involves detecting light stimuli and transforming them into meaningful images. The process includes both bottom-up processing (working from basic features to complex wholes) and top-down processing (using knowledge and expectations to interpret sensory data), with various principles guiding how we organize visual information.",
+        "example": "When you see a partially obscured object, such as a cat behind a fence, you perceive it as a complete cat rather than disconnected parts. This demonstrates perceptual constancy and the Gestalt principle of closure—your visual system fills in the gaps based on prior knowledge and contextual cues."
+      },
+      {
+        "title": "Perception: Information Integration",
+        "content": "The brain actively integrates information from multiple senses to create coherent perceptions of objects and events. This multisensory integration enhances perception, helping us make sense of complex environments. Perceptual processes are also shaped by attention, expectation, and prior knowledge.",
+        "key_points": [
+          "Multisensory integration combines information from different senses",
+          "Perceptual constancy maintains stable object perception despite changing conditions",
+          "Gestalt principles organize sensory elements into meaningful patterns",
+          "Perception involves both bottom-up (data-driven) and top-down (knowledge-driven) processes"
+        ]
+      }
+    ],
+    "key_takeaways": [
+      "Sensation involves detecting stimuli while perception involves interpreting them",
+      "Visual perception relies on both bottom-up and top-down processing",
+      "Gestalt principles help organize visual elements into meaningful patterns",
+      "Our perception is influenced by multisensory integration, attention, and prior knowledge"
+    ],
+    "glossary": [
+      {
+        "term": "Sensation",
+        "definition": "The process of detecting stimuli from the environment through sensory receptors."
+      },
+      {
+        "term": "Perception",
+        "definition": "The process of organizing and interpreting sensory information to create meaningful experiences of the world."
+      },
+      {
+        "term": "Bottom-Up Processing",
+        "definition": "Perceptual processing that begins with sensory data and builds up to higher-level interpretation."
+      },
+      {
+        "term": "Top-Down Processing",
+        "definition": "Perceptual processing influenced by expectations, prior knowledge, and context."
+      }
+    ],
+    "further_reading": [
+      {
+        "title": "Visual Perception and the Brain",
+        "url": "https://www.nature.com/articles/nn0806-901"
+      },
+      {
+        "title": "The Gestalt Principles of Perception",
+        "url": "https://www.verywellmind.com/gestalt-laws-of-perceptual-organization-2795835"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Attention",
+    "summary": "Discover how we selectively focus on certain stimuli while filtering out others.",
+    "intro": "Attention is the cognitive process of selectively concentrating on specific information while ignoring other perceivable information. This lesson explores different types of attention, factors that influence attentional processes, and how attention affects our cognitive performance.",
+    "image": "hypothesis.svg",
+    "quiz_id": 15,
+    "sections": [
+      {
+        "title": "What is Attention?",
+        "content": "Attention is the cognitive process that allows us to focus on specific information while ignoring irrelevant stimuli. With limited processing capacity, our cognitive system must selectively allocate resources to the most important information, making attention a crucial gateway for further processing.",
+        "image": "hypothesis.svg",
+        "key_points": [
+          "Attention allocates limited cognitive resources to selected stimuli",
+          "Attention can be directed voluntarily or captured automatically",
+          "Both external stimuli and internal goals influence attention",
+          "Attention acts as a filter, determining what enters consciousness and memory"
+        ]
+      },
+      {
+        "title": "Selective Attention",
+        "content": "Selective attention involves focusing on specific stimuli while filtering out irrelevant information. Early research like the dichotic listening paradigm demonstrated our ability to attend to one source while filtering others. Models of selective attention, including early and late selection theories, explain different aspects of this filtering process.",
+        "example": "The cocktail party effect illustrates selective attention—you can focus on a single conversation in a noisy room, but automatically notice your name mentioned in another conversation. This demonstrates both intentional focus and automatic attention capture by personally significant information."
+      },
+      {
+        "title": "Controlling Attention",
+        "content": "Attention can be controlled both automatically (exogenous attention) and voluntarily (endogenous attention). While we can deliberately direct our focus, certain stimuli automatically capture attention. Our attentional capacity is limited, making multitasking challenging as tasks compete for resources.",
+        "key_points": [
+          "Exogenous attention is automatically captured by salient stimuli",
+          "Endogenous attention is voluntarily directed based on goals",
+          "Divided attention allows processing multiple inputs with performance costs",
+          "Task switching incurs time costs as attention shifts between activities"
+        ]
+      }
+    ],
+    "key_takeaways": [
+      "Attention selectively directs limited cognitive resources to process specific information",
+      "Selective attention allows us to focus on relevant stimuli while filtering irrelevant information",
+      "Attention can be captured automatically by salient stimuli or directed voluntarily",
+      "Multitasking is challenging because of limited attentional resources"
+    ],
+    "glossary": [
+      {
+        "term": "Selective Attention",
+        "definition": "The process of focusing on particular stimuli while ignoring others."
+      },
+      {
+        "term": "Inattentional Blindness",
+        "definition": "The failure to notice unexpected objects or events when attention is focused elsewhere."
+      },
+      {
+        "term": "Divided Attention",
+        "definition": "The ability to distribute attention across multiple tasks or stimuli simultaneously."
+      },
+      {
+        "term": "Attentional Capture",
+        "definition": "When a stimulus automatically draws attention despite intentions to focus elsewhere."
+      }
+    ],
+    "further_reading": [
+      {
+        "title": "Attention: Selective Processes in Vision and Hearing",
+        "url": "https://www.apa.org/pubs/journals/features/rev-0033-295X.124.6.758.pdf"
+      },
+      {
+        "title": "The Psychology of Attention",
+        "url": "https://www.scientificamerican.com/article/the-psychology-of-attention/"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Memory",
+    "summary": "Examine how we encode, store, and retrieve information over time.",
+    "intro": "Memory is the process of encoding, storing, and retrieving information over time. This lesson explores the different memory systems, how memories are formed and maintained, and factors that influence memory accuracy and accessibility.",
+    "image": "analysis.svg",
+    "quiz_id": 16,
+    "sections": [
+      {
+        "title": "Memory Systems",
+        "content": "Memory is not a single system but comprises multiple interconnected systems. Working memory temporarily holds and manipulates information, while long-term memory stores information for extended periods. These systems differ in capacity, duration, and the processes involved in encoding and retrieval.",
+        "image": "analysis.svg",
+        "key_points": [
+          "Working memory has limited capacity but allows active manipulation of information",
+          "Long-term memory has virtually unlimited capacity and duration",
+          "Procedural memory stores skills and habits (knowing how)",
+          "Declarative memory includes semantic (facts) and episodic (experiences) information"
+        ]
+      },
+      {
+        "title": "Memory Processes",
+        "content": "Memory involves three key processes: encoding (transforming information into storable form), storage (maintaining information over time), and retrieval (accessing stored information when needed). Each process is influenced by various factors, from attention and elaboration during encoding to retrieval cues during recall.",
+        "example": "When studying for an exam, relating new information to existing knowledge (elaborative encoding) leads to better recall than simple repetition. When taking the exam, the context of the testing room can provide retrieval cues that help access stored information—a phenomenon called context-dependent memory."
+      },
+      {
+        "title": "Memory in Context",
+        "content": "Memory is not a perfect recording of experience but a reconstructive process influenced by schemas, expectations, and social factors. This reconstructive nature can lead to various memory biases and errors, from the misinformation effect to false memories, highlighting that memories can be altered over time.",
+        "key_points": [
+          "Memory is reconstructive rather than reproductive",
+          "Schemas and prior knowledge influence how memories are encoded and retrieved",
+          "Memory can be altered by post-event information (misinformation effect)",
+          "Eyewitness testimony can be affected by suggestion and misleading questions"
+        ]
+      }
+    ],
+    "key_takeaways": [
+      "Memory comprises multiple systems including working memory and long-term memory",
+      "Memory involves encoding, storage, and retrieval processes",
+      "Elaborative encoding and meaningful associations improve memory retention",
+      "Memory is reconstructive and susceptible to various biases and errors"
+    ],
+    "glossary": [
+      {
+        "term": "Working Memory",
+        "definition": "A limited-capacity system for temporarily holding and manipulating information."
+      },
+      {
+        "term": "Long-Term Memory",
+        "definition": "The system that stores information over extended periods, from minutes to a lifetime."
+      },
+      {
+        "term": "Encoding",
+        "definition": "The process of transforming information into a form that can be stored in memory."
+      },
+      {
+        "term": "Retrieval",
+        "definition": "The process of accessing information stored in memory when needed."
+      }
+    ],
+    "further_reading": [
+      {
+        "title": "The Cognitive Neuroscience of Memory",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2733249/"
+      },
+      {
+        "title": "Memory Processes and Types",
+        "url": "https://www.simplypsychology.org/memory.html"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Language and Thought",
+    "summary": "Investigate how language shapes our thinking and communication.",
+    "intro": "Language is a symbolic communication system that fundamentally shapes human cognition and social interaction. This lesson explores language acquisition, structure, processing, and the complex relationship between language and thought.",
+    "image": "conclusion.svg",
+    "quiz_id": 17,
+    "sections": [
+      {
+        "title": "What is Language?",
+        "content": "Language is a symbolic communication system with hierarchical structure, grammar rules, and infinite generativity. Human language is distinguished by features like arbitrary symbols, grammar, displacement (discussing things not present), and productivity (creating novel expressions), which together enable complex communication and thought.",
+        "image": "conclusion.svg",
+        "key_points": [
+          "Language uses arbitrary symbols to represent objects, actions, and concepts",
+          "Language structure includes phonology, morphology, syntax, semantics, and pragmatics",
+          "Language allows discussing abstract concepts and events removed in time and space",
+          "Human language differs from animal communication in complexity and generativity"
+        ]
+      },
+      {
+        "title": "Language Acquisition",
+        "content": "Humans have a remarkable capacity to acquire language during early development. Various theoretical perspectives explain this process, from nativist views emphasizing innate predispositions to social learning approaches highlighting interaction. Language acquisition follows predictable stages despite varied input, suggesting both biological and environmental factors.",
+        "example": "Children transition from babbling to one-word utterances around 12 months, and begin combining words around 18-24 months. By age 3, most children produce complex sentences with grammatical markers. This progression occurs across cultures and languages, suggesting universal development patterns despite linguistic differences."
+      },
+      {
+        "title": "Language and Thought",
+        "content": "The relationship between language and thought has fascinated researchers for decades. The linguistic relativity hypothesis (Sapir-Whorf hypothesis) proposes that language influences thought, while other perspectives view language as a tool that expresses thought. Modern research suggests a nuanced relationship, with language shaping certain aspects of cognition while thought can exist without language.",
+        "key_points": [
+          "Linguistic relativity suggests language influences how we perceive and categorize the world",
+          "Language provides labels that help organize thoughts and experiences",
+          "Different languages categorize experience in different ways (e.g., color terms, spatial relations)",
+          "Language facilitates certain cognitive processes but thought can occur without language"
+        ]
+      }
+    ],
+    "key_takeaways": [
+      "Language is a rule-governed symbolic system with hierarchical structure",
+      "Language acquisition follows predictable developmental patterns across cultures",
+      "Language processing involves both analyzing structure and interpreting meaning",
+      "Language and thought interact in complex ways, with language influencing certain aspects of cognition"
+    ],
+    "glossary": [
+      {
+        "term": "Syntax",
+        "definition": "The rules governing how words and phrases combine to form grammatical sentences."
+      },
+      {
+        "term": "Linguistic Relativity",
+        "definition": "The hypothesis that language influences or shapes thought and perception."
+      },
+      {
+        "term": "Critical Period",
+        "definition": "A developmental timeframe during which language acquisition is most naturally successful."
+      },
+      {
+        "term": "Pragmatics",
+        "definition": "The study of how context contributes to language meaning and communication."
+      }
+    ],
+    "further_reading": [
+      {
+        "title": "How Language Shapes Thought",
+        "url": "https://www.scientificamerican.com/article/how-language-shapes-thought/"
+      },
+      {
+        "title": "The Cognitive Science of Language",
+        "url": "https://plato.stanford.edu/entries/linguistics/"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Problem Solving and Decision Making",
+    "summary": "Learn how we approach problems, reason through solutions, and make decisions under uncertainty.",
+    "intro": "Problem solving and decision making are fundamental cognitive processes that involve identifying goals, generating possible solutions, evaluating alternatives, and implementing chosen actions. This lesson explores the cognitive mechanisms underlying these processes and factors that influence their effectiveness.",
+    "image": "hypothesis.svg",
+    "quiz_id": 18,
+    "sections": [
+      {
+        "title": "Problem Solving Approaches",
+        "content": "Problem solving involves identifying a goal, recognizing obstacles, and finding ways to overcome them. Different approaches include algorithms (systematic procedures), heuristics (mental shortcuts), and insight (sudden realization). Problem representation and restructuring play crucial roles in finding effective solutions.",
+        "image": "hypothesis.svg",
+        "key_points": [
+          "Problems can be well-defined (clear goals and paths) or ill-defined (ambiguous)",
+          "Algorithms guarantee solutions but may be time-consuming",
+          "Heuristics offer efficiency but can lead to errors",
+          "Mental set and functional fixedness create obstacles to problem solving"
+        ]
+      },
+      {
+        "title": "Reasoning and Decision Making",
+        "content": "Reasoning involves drawing conclusions from information, while decision making requires evaluating options and selecting among alternatives. These processes involve both logical analysis and intuitive judgment, with various biases and heuristics influencing outcomes, especially under uncertainty or time pressure.",
+        "example": "When deciding whether to accept a job offer, you might use expected utility analysis (comparing salary, benefits, and location systematically) but also rely on affect heuristic (how you feel about the workplace culture). Both analytical and intuitive processes contribute to your final decision."
+      },
+      {
+        "title": "Biases and Heuristics",
+        "content": "Cognitive shortcuts (heuristics) help us make judgments efficiently but can lead to systematic errors (biases). Common biases include confirmation bias (seeking information that confirms existing beliefs), availability heuristic (judging likelihood based on ease of recall), and framing effects (being influenced by how options are presented).",
+        "key_points": [
+          "Confirmation bias leads to seeking evidence supporting existing beliefs",
+          "Availability heuristic judges probability based on easily recalled examples",
+          "Anchoring effects cause judgments to be influenced by initial information",
+          "Framing effects show how presentation format influences decisions"
+        ]
+      }
+    ],
+    "key_takeaways": [
+      "Problem solving involves identifying goals and finding paths to overcome obstacles",
+      "Both analytical and intuitive processes contribute to reasoning and decision making",
+      "Cognitive biases and heuristics influence judgments, especially under uncertainty",
+      "Problem representation and restructuring are critical for insight and creative solutions"
+    ],
+    "glossary": [
+      {
+        "term": "Heuristic",
+        "definition": "A mental shortcut or rule of thumb that helps in problem solving and decision making but doesn't guarantee an optimal solution."
+      },
+      {
+        "term": "Algorithm",
+        "definition": "A step-by-step procedure that, if followed correctly, guarantees a solution to a problem."
+      },
+      {
+        "term": "Functional Fixedness",
+        "definition": "The tendency to perceive an object only in terms of its typical use, limiting creative problem solving."
+      },
+      {
+        "term": "Confirmation Bias",
+        "definition": "The tendency to search for, interpret, and recall information in a way that confirms one's preexisting beliefs."
+      }
+    ],
+    "further_reading": [
+      {
+        "title": "Thinking, Fast and Slow",
+        "url": "https://www.semanticscholar.org/paper/Thinking%2C-Fast-and-Slow-Kahneman/2ed872bd8bbe5425b8d19c00ccd231ff94f3a7b8"
+      },
+      {
+        "title": "The Psychology of Problem Solving",
+        "url": "https://www.apa.org/education/k12/problem-solving"
+      }
+    ]
+  }
+]

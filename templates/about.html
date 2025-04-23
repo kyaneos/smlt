@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+
+{% block title %} - About Us{% endblock %}
+
+{% block content %}
+<div class="card bg-dark mb-4">
+    <div class="card-header bg-info bg-opacity-75">
+        <h1 class="card-title mb-0">About Us</h1>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-lg-8">
+                <p>The Scientific Learning Tool was developed with the help of Replit by Justin Moran and Philip Johnson as a simple way for users to engage with psychology and scientific principles. It utilizes the dual process theory of cognitive load to present learning materials.</p>
+                
+                <div class="card bg-dark mb-4">
+                    <div class="card-header bg-primary bg-opacity-50 d-flex justify-content-between align-items-center">
+                        <h3 class="mb-0">Justin Moran</h3>
+                        <div>
+                            <a href="https://github.com/kyaneos" class="text-light me-2" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+                            <a href="https://www.linkedin.com/in/thisisjustinmoran/" class="text-light" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>Justin Moran is a research scientist at the LIME Lab and Eshin Jolly Lab at UC San Diego, his alma mater. He is passionate about applying cognitive, educational, and cultural psychology to improve learning experiences and technologies, and exploring ways to blend UX design with experimental methods and education technology.</p>
+                    </div>
+                </div>
+                
+                <div class="card bg-dark mb-4">
+                    <div class="card-header bg-primary bg-opacity-50 d-flex justify-content-between align-items-center">
+                        <h3 class="mb-0">Philip Johnson</h3>
+                        <div>
+                            <a href="https://github.com/philip-johnson36" class="text-light me-2" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>Philip Johnson is a code monkey (software engineer) at Roblox who also graduated from UC San Diego. He enjoys solving difficult problems in elegant fashion (this does not happen very often) and building well structured and scalable solutions.</p>
+                    </div>
+                </div>
+                
+                <div class="alert alert-info">
+                    <p>Clearly we know who was serious about this and who wasn't. It's how we cope.</p>
+                    <p class="mb-0">Enjoy the lessons!</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card bg-dark border-info mb-4">
+                    <div class="card-body text-center">
+                        <img src="{{ url_for('static', filename='img/authors.jpg') }}" alt="Justin Moran and Philip Johnson" class="img-fluid rounded mb-3" style="max-height: 400px;">
+                        <p class="text-muted small">Justin Moran and Philip Johnson</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

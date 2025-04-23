@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100" height="80" viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simple, smooth side view brain - minimalist style -->
+  <g fill="#ffffff">
+    <!-- Main brain shape -->
+    <path d="M80,40 C80,20 65,10 40,10 C20,10 10,20 10,35 C10,50 20,65 40,65 C60,65 80,60 80,40 Z" 
+          fill-opacity="1" stroke="#ffffff" stroke-width="0" />
+    
+    <!-- Brain stem -->
+    <path d="M20,50 C15,55 15,60 20,65 C25,70 30,70 30,65" 
+          fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+    
+    <!-- Frontal lobe - more pronounced -->
+    <path d="M25,20 C20,30 25,40 30,45" 
+          fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+    
+    <!-- Parietal lobe -->
+    <path d="M45,15 C50,20 50,30 45,40" 
+          fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+    
+    <!-- Temporal lobe -->
+    <path d="M30,50 C40,55 50,55 60,50" 
+          fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+    
+    <!-- Occipital lobe -->
+    <path d="M65,25 C70,35 70,45 65,55" 
+          fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+  </g>
+</svg>

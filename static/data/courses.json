@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Scientific Method",
+    "description": "Learn the fundamental steps of scientific inquiry and how to apply the scientific method.",
+    "image": "scientific_method.svg",
+    "summary": "This course explores the systematic process used by scientists to investigate natural phenomena and develop reliable knowledge.",
+    "lessons": [1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": 2,
+    "title": "Research Methods in Psychology",
+    "description": "Explore the various approaches used to conduct psychological research.",
+    "image": "experiment.svg",
+    "summary": "This course covers the core research methodologies, experimental design, ethical considerations, and statistical analysis techniques used in psychological science.",
+    "lessons": [7, 8, 9, 10, 11, 12]
+  },
+  {
+    "id": 3,
+    "title": "Introduction to Cognitive Psychology",
+    "description": "Discover how the mind processes information, forms memories, and solves problems.",
+    "image": "hypothesis.svg",
+    "summary": "This course examines the mental processes involved in perception, attention, memory, language, thinking, and problem-solving through the lens of modern cognitive science.",
+    "lessons": [13, 14, 15, 16, 17, 18]
+  }
+]

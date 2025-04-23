@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#1e1e1e" opacity="0" />
+  
+  <!-- Brain Outline -->
+  <path d="M300,70 C400,50 450,150 450,250 C450,350 400,380 300,370 C200,380 150,350 150,250 C150,150 200,50 300,70" 
+        fill="none" stroke="#6c757d" stroke-width="5" />
+  
+  <!-- Left Hemisphere (Verbal Processing) -->
+  <path d="M300,70 C200,50 150,150 150,250 C150,350 200,380 300,370 L300,70" 
+        fill="#377eb8" fill-opacity="0.7" />
+        
+  <!-- Right Hemisphere (Visual Processing) -->
+  <path d="M300,70 C400,50 450,150 450,250 C450,350 400,380 300,370 L300,70" 
+        fill="#4daf4a" fill-opacity="0.7" />
+        
+  <!-- Connecting Line -->
+  <line x1="300" y1="70" x2="300" y2="370" stroke="#fff" stroke-width="5" stroke-dasharray="10,10" />
+  
+  <!-- Center Circle -->
+  <circle cx="300" cy="220" r="30" fill="#f0ad4e" stroke="#ffffff" stroke-width="3" />
+  <text x="300" y="225" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">Integration</text>
+  
+  <!-- Labels -->
+  <text x="220" y="220" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">Verbal</text>
+  <text x="220" y="245" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff">Processing</text>
+  
+  <text x="380" y="220" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">Visual</text>
+  <text x="380" y="245" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff">Processing</text>
+  
+  <!-- Inputs -->
+  <rect x="180" y="80" width="100" height="40" rx="5" ry="5" fill="#dc3545" fill-opacity="0.8" />
+  <text x="230" y="105" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">Text</text>
+  
+  <rect x="320" y="80" width="100" height="40" rx="5" ry="5" fill="#17a2b8" fill-opacity="0.8" />
+  <text x="370" y="105" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">Images</text>
+  
+  <!-- Outputs -->
+  <rect x="180" y="320" width="100" height="40" rx="5" ry="5" fill="#6f42c1" fill-opacity="0.8" />
+  <text x="230" y="345" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">Comprehension</text>
+  
+  <rect x="320" y="320" width="100" height="40" rx="5" ry="5" fill="#6f42c1" fill-opacity="0.8" />
+  <text x="370" y="345" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">Retention</text>
+  
+  <!-- Arrows -->
+  <path d="M230,130 L230,310" stroke="#ffffff" stroke-width="2" fill="none" />
+  <polygon points="230,320 225,310 235,310" fill="#ffffff" />
+  
+  <path d="M370,130 L370,310" stroke="#ffffff" stroke-width="2" fill="none" />
+  <polygon points="370,320 365,310 375,310" fill="#ffffff" />
+  
+  <path d="M240,105 L290,220" stroke="#ffffff" stroke-width="2" fill="none" />
+  <polygon points="295,225 285,223 289,215" fill="#ffffff" />
+  
+  <path d="M360,105 L310,220" stroke="#ffffff" stroke-width="2" fill="none" />
+  <polygon points="305,225 315,223 311,215" fill="#ffffff" />
+  
+  <path d="M295,245 L240,320" stroke="#ffffff" stroke-width="2" fill="none" />
+  <polygon points="235,325 245,323 241,315" fill="#ffffff" />
+  
+  <path d="M305,245 L360,320" stroke="#ffffff" stroke-width="2" fill="none" />
+  <polygon points="365,325 355,323 359,315" fill="#ffffff" />
+</svg>

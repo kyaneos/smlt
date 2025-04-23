@@ -1,0 +1,90 @@
+{% extends "layout.html" %}
+
+{% block title %} - {{ quiz.title }}{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-8 mx-auto">
+        <div class="card bg-dark">
+            <div class="card-header bg-warning bg-opacity-75">
+                <h1 class="card-title mb-0">{{ quiz.title }}</h1>
+            </div>
+            <div class="card-body">
+                <p class="lead">{{ quiz.description }}</p>
+                
+                <div class="alert alert-info">
+                    <div class="d-flex">
+                        <div class="me-3">
+                            <i class="fas fa-info-circle fa-2x"></i>
+                        </div>
+                        <div>
+                            <strong>Quiz Instructions:</strong>
+                            <p class="mb-0">This quiz contains {{ quiz.questions|length }} questions. The questions are randomized for each attempt. Select your answer for each question and click "Submit Quiz" when you're finished.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form id="quiz-form">
+                    <input type="hidden" id="quiz-id" value="{{ quiz.id }}">
+                    <div id="quiz-questions" class="mt-4">
+                        <!-- Questions will be loaded dynamically by JavaScript -->
+                        <div class="text-center">
+                            <div class="spinner-border text-info" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <p>Loading quiz questions...</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-grid gap-2 mt-4">
+                        <button type="submit" id="submit-quiz" class="btn btn-warning">
+                            <i class="fas fa-check-circle me-2"></i>Submit Quiz
+                        </button>
+                        <a href="{{ url_for('lesson', lesson_id=quiz.lesson_id) }}" class="btn btn-outline-secondary">
+                            <i class="fas fa-arrow-left me-2"></i>Return to Lesson
+                        </a>
+                    </div>
+                </form>
+                
+                <!-- Results section (hidden initially) -->
+                <div id="quiz-results" class="mt-4" style="display: none;">
+                    <div class="card bg-dark border-success">
+                        <div class="card-header bg-success bg-opacity-75">
+                            <h2 class="mb-0">Quiz Results</h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="text-center mb-4">
+                                <div class="display-4" id="score-display">0%</div>
+                                <p class="lead" id="score-message">You've completed the quiz!</p>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <canvas id="results-chart" width="400" height="200"></canvas>
+                            </div>
+                            
+                            <div id="question-feedback"></div>
+                            
+                            <div class="d-grid gap-2 mt-4">
+                                <button id="retry-quiz" class="btn btn-info">
+                                    <i class="fas fa-redo me-2"></i>Retry Quiz
+                                </button>
+                                {% if quiz.next_lesson_id %}
+                                <a href="{{ url_for('lesson', lesson_id=quiz.next_lesson_id) }}" class="btn btn-primary">
+                                    <i class="fas fa-arrow-right me-2"></i>Continue to Next Lesson
+                                </a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+<script type="application/json" data-quiz>{{ quiz|tojson }}</script>
+<script src="{{ url_for('static', filename='js/quiz.js') }}"></script>
+{% endblock %}

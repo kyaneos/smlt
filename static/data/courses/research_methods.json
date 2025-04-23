@@ -1,0 +1,422 @@
+[
+  {
+    "id": 7,
+    "title": "The Science of Psychology",
+    "summary": "Explore how psychology uses scientific principles to understand human behavior and mental processes.",
+    "intro": "Psychology is a scientific discipline that studies human behavior and mental processes. This lesson examines what makes psychology a science, its relationship with common sense, and how scientific principles apply to clinical practice.",
+    "image": "observation.svg",
+    "quiz_id": 7,
+    "sections": [
+      {
+        "title": "Understanding Science",
+        "content": "Science is characterized by systematic empiricism, public verification, and solvability. Psychology applies these principles to the study of human behavior and mental processes, making observations, developing testable theories, and building upon established knowledge.",
+        "image": "observation.svg",
+        "key_points": [
+          "Science features systematic empiricism, public verification, and solvability",
+          "Psychology studies human behavior and mental processes scientifically",
+          "Pseudoscience mimics science but lacks rigorous methodology",
+          "Astrology, psychic phenomena, and unverified alternative medicines are examples of pseudoscience"
+        ]
+      },
+      {
+        "title": "Scientific Research in Psychology",
+        "content": "Psychological science aims to describe, predict, explain, and influence behavior. Researchers use various approaches including experimental, correlational, descriptive, and applied methods to investigate psychological phenomena, each with unique strengths and limitations.",
+        "example": "Researchers investigate whether taking notes by hand leads to better comprehension than typing on a laptop. By randomly assigning participants to different note-taking conditions and measuring later test performance, they can establish whether the method affects learning outcomes."
+      },
+      {
+        "title": "Science and Common Sense",
+        "content": "While common sense may seem intuitive, scientific research often challenges popular beliefs about human behavior. Psychological science provides empirical evidence, systematic investigation, and precise measurement that goes beyond informal observations and intuitions.",
+        "key_points": [
+          "Common sense can be contradictory ('look before you leap' vs. 'he who hesitates is lost')",
+          "Common sense explanations are often developed after events occur (hindsight bias)",
+          "Psychological science provides empirical tests of common sense beliefs",
+          "Research can both confirm and contradict intuitive beliefs about human behavior"
+        ]
+      }
+    ],
+    "key_takeaways": [
+      "Psychology is a science because it uses systematic empiricism, public verification, and solvable questions",
+      "Psychological research extends beyond common sense by providing empirical evidence and precise measurement",
+      "Scientists distinguish themselves from pseudoscientists through methodological rigor and evidence-based reasoning",
+      "Scientific principles inform both research and clinical applications in psychology"
+    ],
+    "glossary": [
+      {
+        "term": "Systematic Empiricism",
+        "definition": "The practice of learning through careful observation using organized procedures."
+      },
+      {
+        "term": "Public Verification",
+        "definition": "The expectation that scientific claims must be verifiable by multiple independent observers."
+      },
+      {
+        "term": "Pseudoscience",
+        "definition": "Claims presented as scientific that lack support from scientific research or established scientific methods."
+      },
+      {
+        "term": "Hindsight Bias",
+        "definition": "The tendency to believe, after learning an outcome, that one would have predicted it beforehand."
+      }
+    ],
+    "further_reading": [
+      {
+        "title": "Research Methods in Psychology",
+        "url": "https://opentext.wsu.edu/carriecuttler/"
+      },
+      {
+        "title": "How Science Works",
+        "url": "https://undsci.berkeley.edu/article/intro_01"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Research Basics",
+    "summary": "Learn fundamental concepts in psychological research including variables, operational definitions, and reliability.",
+    "intro": "Before conducting research, psychologists need to understand foundational concepts that guide scientific investigation. This lesson covers basic principles including variables, operational definitions, and measurement approaches in both quantitative and qualitative research.",
+    "image": "hypothesis.svg",
+    "quiz_id": 8,
+    "sections": [
+      {
+        "title": "Basic Concepts",
+        "content": "Psychological research involves studying variables that can be operationally defined and measured. Researchers must consider conceptual and operational definitions, distinguish between different types of variables, and ensure their measurements are reliable and valid.",
+        "image": "hypothesis.svg",
+        "key_points": [
+          "Variables are characteristics that can vary across individuals or conditions",
+          "Conceptual definitions describe what a variable means in theoretical terms",
+          "Operational definitions specify how a variable will be measured",
+          "Different operational definitions of the same conceptual variable can lead to different results"
+        ]
+      },
+      {
+        "title": "Types of Variables",
+        "content": "Variables in research serve different roles. Independent variables are manipulated by researchers to observe their effects. Dependent variables are measured to assess these effects. Extraneous variables must be controlled to ensure valid conclusions about relationships between variables of interest.",
+        "example": "In a study on the effect of sleep deprivation on reaction time, 'sleep deprivation' is the independent variable that researchers manipulate (e.g., by having participants sleep 4, 6, or 8 hours). 'Reaction time' is the dependent variable measured to determine the effect of different sleep conditions."
+      },
+      {
+        "title": "Quantitative and Qualitative Research",
+        "content": "Psychology employs both quantitative and qualitative approaches. Quantitative research involves numerical measurement and statistical analysis, while qualitative research explores in-depth experiences through interviews, observations, and textual analysis. Each approach offers unique insights into human behavior and mental processes.",
+        "key_points": [
+          "Quantitative research emphasizes numerical data and statistical analysis",
+          "Qualitative research focuses on rich descriptions and interpretations of experiences",
+          "Mixed methods research combines both approaches for comprehensive understanding",
+          "Each approach has strengths and limitations depending on research questions"
+        ]
+      }
+    ],
+    "key_takeaways": [
+      "Research variables must be clearly defined both conceptually and operationally",
+      "Independent variables are manipulated, while dependent variables are measured as outcomes",
+      "Psychological measurement should be both reliable (consistent) and valid (accurate)",
+      "Both quantitative and qualitative approaches offer valuable perspectives in psychological research"
+    ],
+    "glossary": [
+      {
+        "term": "Variable",
+        "definition": "Any characteristic or condition that can change or vary among different people or situations."
+      },
+      {
+        "term": "Operational Definition",
+        "definition": "A clear, precise description of how a variable will be measured and recorded in a particular study."
+      },
+      {
+        "term": "Reliability",
+        "definition": "The consistency or stability of a measurement, indicating whether it produces similar results under consistent conditions."
+      },
+      {
+        "term": "Validity",
+        "definition": "The extent to which a measurement actually measures what it claims to measure."
+      }
+    ],
+    "further_reading": [
+      {
+        "title": "Developing Research Questions",
+        "url": "https://www.apa.org/education/undergrad/research-questions"
+      },
+      {
+        "title": "Quantitative vs. Qualitative Research",
+        "url": "https://www.simplypsychology.org/qualitative-quantitative.html"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Theory in Psychology",
+    "summary": "Understand how theories help psychologists explain phenomena and guide research.",
+    "intro": "Theories are essential tools in psychological science that help organize observations, generate hypotheses, and advance knowledge. This lesson explores how theories are developed, evaluated, and applied in psychological research.",
+    "image": "analysis.svg",
+    "quiz_id": 9,
+    "sections": [
+      {
+        "title": "Phenomena and Theories",
+        "content": "Psychological theories aim to explain phenomena—observable events or patterns in behavior and mental processes. Theories organize existing observations, generate new hypotheses, and guide the interpretation of research findings. Good theories are precise, falsifiable, parsimonious, and useful.",
+        "image": "analysis.svg",
+        "key_points": [
+          "Phenomena are observable events or patterns that theories attempt to explain",
+          "Theories organize observations and generate new predictions",
+          "Good theories are precise, falsifiable, parsimonious, and useful",
+          "Theories evolve as new evidence emerges"
+        ]
+      },
+      {
+        "title": "The Variety of Theories in Psychology",
+        "content": "Psychology encompasses diverse theoretical perspectives, from grand theories that attempt to explain broad aspects of behavior to mini-theories focused on specific phenomena. These theories operate at different levels of analysis—from biological to social—and often complement rather than contradict each other.",
+        "example": "A panic attack could be explained at multiple levels: as excessive sympathetic nervous system activation (biological), as catastrophic misinterpretation of bodily sensations (cognitive), or as a learned response to environmental triggers (behavioral). Each perspective offers valuable insights into the same phenomenon."
+      },
+      {
+        "title": "Using Theories in Research",
+        "content": "Theories guide the research process by helping psychologists develop testable hypotheses, design appropriate studies, and interpret results. The interplay between theory and data drives scientific progress, with theories being refined or replaced as evidence accumulates.",
+        "key_points": [
+          "Theories generate specific, testable predictions (hypotheses)",
+          "Research findings either support, refine, or challenge theories",
+          "Multiple competing theories can explain the same phenomena",
+          "Theory testing follows a cycle of hypothesis generation, data collection, and theory revision"
+        ]
+      }
+    ],
+    "key_takeaways": [
+      "Theories organize observations about psychological phenomena and generate new hypotheses",
+      "Good psychological theories are precise, falsifiable, parsimonious, and useful",
+      "Psychology includes diverse theoretical perspectives operating at different levels of analysis",
+      "The interaction between theory development and empirical research drives scientific progress"
+    ],
+    "glossary": [
+      {
+        "term": "Theory",
+        "definition": "A well-developed explanation of a psychological phenomenon based on systematic observations."
+      },
+      {
+        "term": "Hypothesis",
+        "definition": "A specific, testable prediction derived from a theory."
+      },
+      {
+        "term": "Falsifiability",
+        "definition": "The capacity for a theory or hypothesis to be proven false by observation or experiment."
+      },
+      {
+        "term": "Parsimony",
+        "definition": "The principle that the simplest explanation that accounts for all evidence should be preferred."
+      }
+    ],
+    "further_reading": [
+      {
+        "title": "The Role of Theory in Psychology",
+        "url": "https://nobaproject.com/modules/the-replication-crisis-in-psychology"
+      },
+      {
+        "title": "Levels of Analysis in Psychology",
+        "url": "https://www.simplypsychology.org/levels-analysis-psychology.html"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Research Ethics",
+    "summary": "Examine ethical principles and practices that guide psychological research with human participants.",
+    "intro": "Ethical considerations are fundamental to psychological research, protecting participants' rights and welfare while promoting scientific integrity. This lesson explores the ethical principles, professional codes, and practical considerations researchers must navigate.",
+    "image": "conclusion.svg",
+    "quiz_id": 10,
+    "sections": [
+      {
+        "title": "Moral Foundations of Research Ethics",
+        "content": "Research ethics in psychology are guided by core principles: respect for persons (autonomy), beneficence (maximizing benefits and minimizing risks), justice (fair distribution of benefits and burdens), and social responsibility. These principles help researchers balance scientific goals with participant welfare.",
+        "image": "conclusion.svg",
+        "key_points": [
+          "Respect for persons honors participants' autonomy and dignity",
+          "Beneficence involves maximizing benefits while minimizing risks",
+          "Justice requires fair treatment and consideration of vulnerable populations",
+          "Social responsibility considers broader impacts of research on society"
+        ]
+      },
+      {
+        "title": "From Principles to Ethics Codes",
+        "content": "Ethical principles are formalized in professional codes like the APA Ethics Code, which provides specific guidelines for research conduct. Institutional Review Boards (IRBs) review research proposals to ensure they meet ethical standards before studies can proceed with human participants.",
+        "example": "A researcher studying trauma must carefully consider potential psychological risks to participants, ensure informed consent procedures are thorough, provide adequate debriefing, and have support resources available for participants who experience distress—all requirements that would be evaluated by an IRB."
+      },
+      {
+        "title": "Ethical Challenges in Research",
+        "content": "Researchers face various ethical challenges, including balancing scientific validity with participant protection, obtaining truly informed consent, maintaining confidentiality in the digital age, and managing conflicts of interest. Ethical research requires ongoing vigilance and adaptation to new challenges.",
+        "key_points": [
+          "Research deception must be justified, minimized, and followed by debriefing",
+          "Informed consent requires clear communication about study procedures and risks",
+          "Confidentiality protections must account for digital data vulnerabilities",
+          "Ethical considerations extend to data analysis, reporting, and publication practices"
+        ]
+      }
+    ],
+    "key_takeaways": [
+      "Psychological research ethics balance scientific advancement with participant welfare",
+      "Core ethical principles include respect for persons, beneficence, justice, and social responsibility",
+      "Formal ethics codes and IRB review help ensure research meets ethical standards",
+      "Researchers must navigate ongoing ethical challenges throughout the research process"
+    ],
+    "glossary": [
+      {
+        "term": "Informed Consent",
+        "definition": "The process by which participants voluntarily confirm their willingness to participate in research after being informed of all aspects relevant to their decision."
+      },
+      {
+        "term": "Institutional Review Board (IRB)",
+        "definition": "A committee that reviews and monitors research involving human subjects to ensure ethical principles are upheld."
+      },
+      {
+        "term": "Debriefing",
+        "definition": "The process of providing participants with full information about the study's purpose and methods after their participation, especially important when deception was used."
+      },
+      {
+        "term": "Confidentiality",
+        "definition": "The protection of participants' identifiable information to prevent unauthorized disclosure."
+      }
+    ],
+    "further_reading": [
+      {
+        "title": "APA Ethical Principles and Code of Conduct",
+        "url": "https://www.apa.org/ethics/code"
+      },
+      {
+        "title": "History of Research Ethics",
+        "url": "https://www.hhs.gov/ohrp/education-and-outreach/about-research-participation/history-of-research-ethics/index.html"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Experimental Research",
+    "summary": "Learn how to design, conduct, and interpret experimental studies in psychology.",
+    "intro": "Experimental research is the gold standard for establishing causal relationships in psychology. This lesson covers the fundamental principles of experimental design, including manipulation, control, and randomization.",
+    "image": "experiment.svg",
+    "quiz_id": 11,
+    "sections": [
+      {
+        "title": "Experiment Basics",
+        "content": "Experiments involve manipulating independent variables and measuring their effects on dependent variables while controlling extraneous factors. This methodology allows researchers to establish causal relationships between variables, distinguishing it from correlational research.",
+        "image": "experiment.svg",
+        "key_points": [
+          "Experiments manipulate variables to establish causation",
+          "Independent variables are manipulated by the researcher",
+          "Dependent variables measure the effect of the manipulation",
+          "Experiments require control of extraneous variables"
+        ]
+      },
+      {
+        "title": "Experimental Design",
+        "content": "Researchers use various experimental designs to test hypotheses efficiently. Between-subjects designs compare different groups of participants, while within-subjects designs test the same participants across conditions. Each approach has strengths and limitations that researchers must consider.",
+        "example": "To study whether background music affects reading comprehension, researchers might use a between-subjects design (one group reads in silence, another with music) or a within-subjects design (the same participants read passages both with and without music, counterbalancing the order)."
+      },
+      {
+        "title": "Internal and External Validity",
+        "content": "Successful experiments balance internal validity (accuracy in establishing causal relationships) with external validity (generalizability to real-world settings). Researchers must address threats to validity through careful design, including randomization, manipulation checks, and ecological considerations.",
+        "key_points": [
+          "Internal validity ensures accurate causal conclusions within the study",
+          "External validity concerns generalizability beyond the study context",
+          "Randomization helps control for pre-existing differences between groups",
+          "Laboratory control increases internal validity but may reduce external validity"
+        ]
+      }
+    ],
+    "key_takeaways": [
+      "Experiments manipulate variables under controlled conditions to establish causality",
+      "Different experimental designs (between-subjects, within-subjects, factorial) serve different research needs",
+      "Successful experiments balance internal validity with real-world applicability",
+      "Experimental control, randomization, and replication strengthen scientific conclusions"
+    ],
+    "glossary": [
+      {
+        "term": "Independent Variable",
+        "definition": "The factor manipulated by the experimenter to observe its effect on the dependent variable."
+      },
+      {
+        "term": "Dependent Variable",
+        "definition": "The measured outcome that may change in response to manipulation of the independent variable."
+      },
+      {
+        "term": "Random Assignment",
+        "definition": "The process of assigning participants to conditions by chance, helping ensure groups are equivalent before treatment."
+      },
+      {
+        "term": "Confound",
+        "definition": "An unwanted variable that varies systematically with the independent variable, threatening internal validity."
+      }
+    ],
+    "further_reading": [
+      {
+        "title": "Experimental Design in Psychological Research",
+        "url": "https://nobaproject.com/modules/research-designs"
+      },
+      {
+        "title": "Validity in Psychological Research",
+        "url": "https://www.simplypsychology.org/validity.html"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Nonexperimental Research",
+    "summary": "Explore research methods that observe variables without experimental manipulation.",
+    "intro": "Not all psychological research questions can be answered through experimentation. This lesson examines nonexperimental approaches—including correlational, survey, and observational methods—that provide valuable insights when experimental manipulation is impractical or unethical.",
+    "image": "observation.svg",
+    "quiz_id": 12,
+    "sections": [
+      {
+        "title": "Correlational Research",
+        "content": "Correlational research examines relationships between variables without manipulation, providing insights into naturally occurring patterns and potential associations. While correlation does not imply causation, correlational studies offer valuable information about the strength and direction of relationships in real-world contexts.",
+        "image": "observation.svg",
+        "key_points": [
+          "Correlations indicate relationships between variables without establishing causation",
+          "Correlation coefficients range from -1 to +1, indicating direction and strength",
+          "Correlational research can examine relationships difficult to study experimentally",
+          "Third variables and bidirectional causality are alternative explanations for correlations"
+        ]
+      },
+      {
+        "title": "Survey Research",
+        "content": "Surveys gather self-reported data from large samples, providing information about attitudes, behaviors, and experiences. Effective survey research requires careful attention to sampling methods, question wording, and response formats to obtain valid and reliable results.",
+        "example": "A researcher interested in study habits might survey college students about their preferred study techniques, time management strategies, and perceived effectiveness. This could reveal patterns about which methods students believe work best, though it wouldn't establish which methods actually improve performance."
+      },
+      {
+        "title": "Observational and Case Studies",
+        "content": "Observational research examines behavior in natural settings, while case studies provide in-depth analysis of individuals or specific situations. These methods offer rich, contextualized data that complement experimental findings, particularly for complex or rare phenomena.",
+        "key_points": [
+          "Naturalistic observation studies behavior in real-world settings without intervention",
+          "Structured observation uses predefined categories to systematically record behavior",
+          "Case studies provide detailed analysis of unique or exemplary instances",
+          "Observational methods balance depth of understanding with limitations in generalizability"
+        ]
+      }
+    ],
+    "key_takeaways": [
+      "Nonexperimental methods provide valuable data when experimental manipulation is impractical or unethical",
+      "Correlational research identifies relationships between variables without establishing causation",
+      "Survey methods efficiently collect self-reported data from large, diverse samples",
+      "Observational approaches and case studies offer rich, contextualized understanding of complex phenomena"
+    ],
+    "glossary": [
+      {
+        "term": "Correlation Coefficient",
+        "definition": "A statistical measure ranging from -1 to +1 that indicates the strength and direction of a relationship between variables."
+      },
+      {
+        "term": "Sampling",
+        "definition": "The process of selecting participants from a population for research purposes."
+      },
+      {
+        "term": "Naturalistic Observation",
+        "definition": "A research method where behavior is observed in its natural environment without experimental manipulation."
+      },
+      {
+        "term": "Third Variable Problem",
+        "definition": "The possibility that an unmeasured variable causes changes in two correlated variables, creating a spurious correlation."
+      }
+    ],
+    "further_reading": [
+      {
+        "title": "Beyond Experiments: Correlational Research",
+        "url": "https://opentextbc.ca/researchmethods/chapter/correlational-research/"
+      },
+      {
+        "title": "Survey Design Best Practices",
+        "url": "https://www.pewresearch.org/our-methods/u-s-surveys/writing-survey-questions/"
+      }
+    ]
+  }
+]
